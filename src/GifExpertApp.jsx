@@ -6,7 +6,7 @@ import { AddCategories, GifGrid } from './Components/index'
 export const GifExpertApp = () => {
 
     //.../// operadr spread
-    const [categories, setCategories] = useState(['Tits'])
+    const [categories, setCategories] = useState(['Goku'])
     const onAddCategory = (newCategory) => {
         if(categories.includes(newCategory)) {
             return;
